@@ -3,8 +3,8 @@ body{background-color: #1e938b !important; color: #717171 !important;}
 header{position: relative;  height: 60%; width: 100%; overflow: hidden;}
 .menu{position: relative; z-index: 10;}
 .logo{position: relative; z-index: 10;}
-.slider{position: absolute; top: 0; left: 0; z-index: 0; width:100%; height:100%; }
-.nav-bar{min-height: 45px; background-color: rgba(20, 115, 107, 0.8); /* Color white with alpha 0.9*/ padding: 12px 0px 0px 0px; color: #fff; font-weight: lighter; position: relative; z-index: 10; }
+.slider{position: absolute; top: 0; left: 0; z-index: 0; width:100%; height:100%;}
+.nav-bar{min-height: 45px; background-color: rgba(20, 115, 107, 0.8); /* Color white with alpha 0.9*/ padding: 12px 0px 0px 0px; color: #fff; font-weight: lighter; position: relative; z-index: 10;}
 ul#main-nav{margin: 40px 0px 0px 0px; padding: 0px; text-align: right;}
 ul#main-nav li{margin: 0px 0px 0px 35px; padding: 0px; display: inline; font-weight: lighter;}
 ul#main-nav li a{margin: 0px; padding: 0px; color: #fff;}
@@ -35,10 +35,10 @@ section{padding: 60px 0px 60px 0px; clear: both !important;}
 .intro img{margin-bottom: 30px;}
 .intro p{font-family: serif; font-size: 16px;}
 .centered{text-align: center;}
-.highlight{background-image: url('images/cityscape.png'); background-repeat:repeat-x; background-position: center bottom; padding: 80px 0px 0px 0px; position: relative;}
+.highlight{background-image: url('images/cityscape.png'); background-repeat:repeat-x; background-position: center bottom; padding: 20px 0px 0px 0px; position: relative;}
 .highlight h2{color: #ef6a1c; font-family: serif; margin: 40px 0px 30px 0px; font-style: italic; background-image: url('images/dash.png'); background-position: center bottom; background-repeat: no-repeat; padding: 0px 0px 35px 0px;}
 .highlight p{font-size: 20px; font-style: italic; font-family: serif; margin-bottom: 40px;}
-.highlight button{margin-bottom: 280px;}
+.highlight button{margin-bottom: 240px;}
 .highlight img{text-align: center; clear: both;  position: absolute; bottom: 0px; left: 115px;}
 .newsletter p{font-family: sans-serif; font-size: 13px; color: #fff; font-weight: lighter;}
 .bottom h4{border-bottom: 1px solid #e57f41; color: #fff; font-weight: lighter; font-family: sans-serif; font-size: 18px; padding: 0px 0px 15px 0px; margin-bottom: 30px;}
