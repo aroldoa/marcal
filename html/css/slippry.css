@@ -336,6 +336,7 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
+   z-index: 33;
 }
 @media only screen and (max-device-width: 600px) {
   .sy-controls {
