@@ -356,7 +356,7 @@
   position: absolute;
   top: 45%;
   z-index: 12;
-  left: 30%;
+  left: 35%;
 }
 .sy-caption-wrap .sy-caption {
   position: relative;
@@ -364,6 +364,7 @@
   font-size: 40px;
   color: #fff;
   padding: 0.4em 1em;
+  text-align: left;
 
 }
 .sy-caption-wrap .sy-caption a:link, .sy-caption-wrap .sy-caption a:visited {
