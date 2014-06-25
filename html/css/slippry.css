@@ -160,7 +160,11 @@
 
 /* added to the original element calling slippry */
 .sy-box.sy-loading {
+<<<<<<< HEAD
   background: url(assets/img/sy-loader.gif) 50% 50% no-repeat;
+=======
+  background: url(../images/sy-loader.gif) 50% 50% no-repeat;
+>>>>>>> cf2477ad5bc87a499e4d4a50b94f219597a621d2
   -webkit-background-size: 32px;
   -moz-background-size: 32px;
   -o-background-size: 32px;
@@ -311,7 +315,11 @@
 }
 .sy-controls li a:after {
   content: "";
+<<<<<<< HEAD
   background-image: url(assets/img/arrows.svg);
+=======
+  background-image: url(../images/arrows.svg);
+>>>>>>> cf2477ad5bc87a499e4d4a50b94f219597a621d2
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
