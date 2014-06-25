@@ -41,6 +41,9 @@ section{padding: 60px 0px 60px 0px; clear: both !important;}
 .highlight button{margin-bottom: 240px;}
 .highlight img{text-align: center; clear: both;  position: absolute; bottom: 0px; left: 115px;}
 .newsletter p{font-family: sans-serif; font-size: 13px; color: #fff; font-weight: lighter;}
+.newsletter form{margin: 0px; padding: 0px;}
+.newsletter label{}
+.newsletter input{width: 100%;}
 .bottom h4{border-bottom: 1px solid #e57f41; color: #fff; font-weight: lighter; font-family: sans-serif; font-size: 18px; padding: 0px 0px 15px 0px; margin-bottom: 30px;}
 .foot{background-color: #14736b; padding: 22px 0px; margin: 0px 0px 0px 0px;}
 .copyright{padding: 20px 0px; color: #fff; font-size: 12px; font-family: sans-serif; font-weight: lighter;}
