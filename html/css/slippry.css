@@ -215,7 +215,6 @@
 .sy-slide {
   position: absolute;
   width: 100%;
-  z-index: -99999px;
 }
 .sy-slide.kenburns {
   width: 140%;
@@ -273,6 +272,7 @@
   position: absolute;
   padding: 0;
   margin: 0;
+
 }
 .sy-controls li {
   position: absolute;
@@ -395,7 +395,7 @@
 /* pager bubbles */
 .sy-pager {
   overflow: hidden;
-  *zoom: 1;
+  zoom: 1;
   display: none;
   width: 100%;
   margin: 1em 0 0;
