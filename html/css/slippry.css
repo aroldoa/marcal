@@ -215,7 +215,7 @@
 .sy-slide {
   position: absolute;
   width: 100%;
-  z-index: 2;
+  z-index: -99999px;
 }
 .sy-slide.kenburns {
   width: 140%;
