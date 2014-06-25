@@ -215,6 +215,7 @@
 .sy-slide {
   position: absolute;
   width: 100%;
+  z-index: 2;
 }
 .sy-slide.kenburns {
   width: 140%;
@@ -272,7 +273,6 @@
   position: absolute;
   padding: 0;
   margin: 0;
-
 }
 .sy-controls li {
   position: absolute;
@@ -364,7 +364,6 @@
   font-size: 40px;
   color: #fff;
   padding: 0.4em 1em;
-  text-align: left;
 
 }
 .sy-caption-wrap .sy-caption a:link, .sy-caption-wrap .sy-caption a:visited {
@@ -395,7 +394,7 @@
 /* pager bubbles */
 .sy-pager {
   overflow: hidden;
-  zoom: 1;
+  *zoom: 1;
   display: none;
   width: 100%;
   margin: 1em 0 0;
