@@ -51,10 +51,10 @@
 					<a href="#slide1"><img src="images/slideshow.jpg" alt="Welcome to Slippry!"></a>
 				</li>
 				<li>
-					<a href="#slide2"><img src="images/image-1.jpg"  alt="This is an awesome jQuery slider plugin."></a>
+					<a href="#slide2"><img src="images/slideshow.jpg"  alt="This is an awesome jQuery slider plugin."></a>
 				</li>
 				<li>
-					<a href="#slide3"><img src="images/image-2.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+					<a href="#slide3"><img src="images/slideshow.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
 				</li>
 			</ul>
     	</div>
@@ -144,7 +144,23 @@
 	<link href="css/slippry.css" rel="stylesheet">
 	<script>
 		jQuery(document).ready(function(){
-			jQuery('#slippry-demo').slippry()
+			jQuery('#slippry-demo').slippry({
+				 // general elements & wrapper
+				 slippryWrapper: '<div class="sy-box portfolio-slider" />', // wrapper to wrap everything, including pager
+
+				 // options
+				 adaptiveHeight: false, // height of the sliders adapts to current slide
+				 start: 'random', // num (starting from 1), random
+				 loop: true, // first -> last & last -> first arrows
+
+				 // transitions
+				 transition: 'fade', // fade, horizontal, kenburns, false
+				 easing: 'linear', // easing to use in the animation [(see... [jquery www])]
+				 continuous: true,
+
+				 // slideshow
+				 auto: false
+			})
 		});
 	</script>
 

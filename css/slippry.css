@@ -354,21 +354,18 @@
 /* captions, styled fo the overlay variant */
 .sy-caption-wrap {
   position: absolute;
-  bottom: 2em;
+  top: 40%;
   z-index: 12;
-  left: 50%;
+  left: 30%;
 }
 .sy-caption-wrap .sy-caption {
   position: relative;
   left: -50%;
-  background-color: rgba(0, 0, 0, 0.54);
   color: #fff;
   padding: 0.4em 1em;
-  -webkit-border-radius: 1.2em;
-  -moz-border-radius: 1.2em;
-  -ms-border-radius: 1.2em;
-  -o-border-radius: 1.2em;
-  border-radius: 1.2em;
+  font-size: 38px;
+  font-weight: bold;
+
 }
 .sy-caption-wrap .sy-caption a:link, .sy-caption-wrap .sy-caption a:visited {
   color: #e24b70;
@@ -399,7 +396,7 @@
 .sy-pager {
   overflow: hidden;
   *zoom: 1;
-  display: block;
+  display: none;
   width: 100%;
   margin: 1em 0 0;
   padding: 0;

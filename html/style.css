@@ -1,6 +1,7 @@
 html{margin: 0px; padding: 0px;}
 body{background-color: #1e938b !important; color: #717171 !important;}
-header{height: 495px; background-image: url('images/slideshow.jpg'); background-repeat: no-repeat; background-position: left top; background-size:cover;}
+header{min-height: 495px;}
+.slider{margin: -160px 0px 0px 0px; z-index: -9999px;}
 .nav-bar{min-height: 45px; background-color: rgba(20, 115, 107, 0.8); /* Color white with alpha 0.9*/ padding: 12px 0px 0px 0px; color: #fff; font-weight: lighter;}
 ul#main-nav{margin: 40px 0px 0px 0px; padding: 0px; text-align: right;}
 ul#main-nav li{margin: 0px 0px 0px 35px; padding: 0px; display: inline; font-weight: lighter;}
