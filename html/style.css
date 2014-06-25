@@ -1,8 +1,10 @@
 html,body{margin: 0px; padding: 0px; height: 100%;}
 body{background-color: #1e938b !important; color: #717171 !important;}
-header{position: relative;  height: 60%; width: 100%; }
-.slider{position: absolute; top: 0; left: 0; z-index: -1; width:100%; height:100%; }
-.nav-bar{min-height: 45px; background-color: rgba(20, 115, 107, 0.8); /* Color white with alpha 0.9*/ padding: 12px 0px 0px 0px; color: #fff; font-weight: lighter; }
+header{position: relative;  height: 60%; width: 100%; overflow: hidden;}
+.menu{position: relative; z-index: 10;}
+.logo{position: relative; z-index: 10;}
+.slider{position: absolute; top: 0; left: 0; z-index: 0; width:100%; height:100%; }
+.nav-bar{min-height: 45px; background-color: rgba(20, 115, 107, 0.8); /* Color white with alpha 0.9*/ padding: 12px 0px 0px 0px; color: #fff; font-weight: lighter; position: relative; z-index: 10; }
 ul#main-nav{margin: 40px 0px 0px 0px; padding: 0px; text-align: right;}
 ul#main-nav li{margin: 0px 0px 0px 35px; padding: 0px; display: inline; font-weight: lighter;}
 ul#main-nav li a{margin: 0px; padding: 0px; color: #fff;}
@@ -38,7 +40,8 @@ section{padding: 60px 0px 60px 0px; clear: both !important;}
 .highlight p{font-size: 20px; font-style: italic; font-family: serif; margin-bottom: 40px;}
 .highlight button{margin-bottom: 280px;}
 .highlight img{text-align: center; clear: both;  position: absolute; bottom: 0px; left: 115px;}
-.bottom h4{border-bottom: 1px solid #e57f41; color: #fff; font-weight: lighter; font-family: sans-serif; font-size: 18px; padding: 0px 0px 15px 0px;}
+.newsletter p{font-family: sans-serif; font-size: 13px; color: #fff; font-weight: lighter;}
+.bottom h4{border-bottom: 1px solid #e57f41; color: #fff; font-weight: lighter; font-family: sans-serif; font-size: 18px; padding: 0px 0px 15px 0px; margin-bottom: 30px;}
 .foot{background-color: #14736b; padding: 22px 0px; margin: 0px 0px 0px 0px;}
 .copyright{padding: 20px 0px; color: #fff; font-size: 12px; font-family: sans-serif; font-weight: lighter;}
 ul#footer-nav{display: inline; margin: 0px; padding: 0px;}
