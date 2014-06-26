@@ -58,6 +58,9 @@ ul#footer-nav li a{color: #fff !important;}
 }
 
 @media(max-width:767px){
+	.sy-slide > a > img{
+		height:100%;
+	}
 }
 @media(min-width:768px){
 	header{
