@@ -53,7 +53,7 @@ ul#footer-nav li{display: inline; margin: 0px 50px 0px 0px; font-family: sans-se
 ul#footer-nav li a{color: #fff !important;}
 
 /*makes the slider occupy 100% of parent element*/
-.sy-box, .sy-slide > a, .sy-slide > a > img{
+.sy-box, .sy-slide > a{
 	height:100%;
 }
 
