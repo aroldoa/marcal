@@ -4,7 +4,7 @@ body{background-color: #1e938b !important; color: #717171 !important;}
 header{position: relative; width: 100%; overflow: hidden;}
 .menu{position: relative; z-index: 10;}
 .logo{position: relative; z-index: 10;}
-.slider{position: absolute; top: 0; left: 0; z-index: 0; width:100%; height:100%;}
+.slider{position: relative; top: -160px; left: 0; z-index: 0; width:100%; margin-bottom:-160px;}
 .nav-bar{min-height: 45px; background-color: rgba(20, 115, 107, 0.8); /* Color white with alpha 0.9*/ padding: 12px 0px 0px 0px; color: #fff; font-weight: lighter; position: relative; z-index: 10;}
 ul#main-nav{margin: 40px 0px 0px 0px; padding: 0px; text-align: right;}
 ul#main-nav li{margin: 0px 0px 0px 35px; padding: 0px; display: inline; font-weight: lighter;}
@@ -53,24 +53,19 @@ ul#footer-nav li{display: inline; margin: 0px 50px 0px 0px; font-family: sans-se
 ul#footer-nav li a{color: #fff !important;}
 
 /*makes the slider occupy 100% of parent element*/
-.sy-box, .sy-slide > a,.sy-slide > a > img{
+/*.sy-box, .sy-slide > a,.sy-slide > a > img{
 	height:100%;
-}
+}*/
 
 @media(max-width:767px){
+	.slider{top: -227px; margin-bottom:-227px;}
 }
 @media(min-width:768px){
-	header{
-		height:40%;
-	}
+	.slider{top: -227px; margin-bottom:-227px;}
 }
 @media(min-width:992px){
-	header{
-		height:50%;
-	}
+	.slider{top: -227px;  margin-bottom:-227px;}
 }
-@media(min-width:1200px){
-	header{
-		height:60%;
-	}
-}
+/*@media(min-width:1200px){
+	.slider{position: relative; top: -160px; left: 0; z-index: 0; width:100%; margin-bottom:-160px;}
+}*/
