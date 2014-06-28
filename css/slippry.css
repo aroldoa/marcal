@@ -160,7 +160,7 @@
 
 /* added to the original element calling slippry */
 .sy-box.sy-loading {
-  background: url(assets/img/sy-loader.gif) 50% 50% no-repeat;
+  background: url(../images/sy-loader.gif) 50% 50% no-repeat;
   -webkit-background-size: 32px;
   -moz-background-size: 32px;
   -o-background-size: 32px;
@@ -215,7 +215,7 @@
 .sy-slide {
   position: absolute;
   width: 100%;
-  /*z-index: 2;*/
+  z-index: 2;
 }
 .sy-slide.kenburns {
   width: 140%;
@@ -248,7 +248,7 @@
   animation-fill-mode: forwards;
 }
 .sy-slide.sy-active {
-  /*z-index: 3;*/
+  z-index: 3;
 }
 .sy-slide > a {
   margin: 0;
@@ -273,6 +273,7 @@
   position: absolute;
   padding: 0;
   margin: 0;
+  z-index: 33;
 }
 .sy-controls li {
   position: absolute;
@@ -311,7 +312,7 @@
 }
 .sy-controls li a:after {
   content: "";
-  background-image: url(assets/img/arrows.svg);
+  background-image: url(../images/arrows.svg);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -335,6 +336,7 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
+   z-index: 33;
 }
 @media only screen and (max-device-width: 600px) {
   .sy-controls {
@@ -354,21 +356,17 @@
 /* captions, styled fo the overlay variant */
 .sy-caption-wrap {
   position: absolute;
-  bottom: 2em;
+  top: 45%;
   z-index: 12;
-  left: 50%;
+  left: 35%;
 }
 .sy-caption-wrap .sy-caption {
   position: relative;
   left: -50%;
-  background-color: rgba(0, 0, 0, 0.54);
+  font-size: 40px;
   color: #fff;
   padding: 0.4em 1em;
-  -webkit-border-radius: 1.2em;
-  -moz-border-radius: 1.2em;
-  -ms-border-radius: 1.2em;
-  -o-border-radius: 1.2em;
-  border-radius: 1.2em;
+
 }
 .sy-caption-wrap .sy-caption a:link, .sy-caption-wrap .sy-caption a:visited {
   color: #e24b70;
@@ -399,7 +397,7 @@
 .sy-pager {
   overflow: hidden;
   *zoom: 1;
-  display: block;
+  display: none;
   width: 100%;
   margin: 1em 0 0;
   padding: 0;

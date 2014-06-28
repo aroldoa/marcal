@@ -40,17 +40,27 @@ section{padding: 60px 0px 60px 0px; clear: both !important;}
 .highlight h2{color: #ef6a1c; font-family: serif; margin: 40px 0px 30px 0px; font-style: italic; background-image: url('images/dash.png'); background-position: center bottom; background-repeat: no-repeat; padding: 0px 0px 35px 0px;}
 .highlight p{font-size: 20px; font-style: italic; font-family: serif; margin-bottom: 40px;}
 .highlight button{margin-bottom: 240px;}
-.highlight img{text-align: center; clear: both;  position: absolute; bottom: 0px; left: 115px;}
-.newsletter p{font-family: sans-serif; font-size: 13px; color: #fff; font-weight: lighter;}
-.newsletter form{margin: 0px; padding: 0px;}
-.newsletter label{}
-.newsletter input{width: 100%;}
-.bottom h4{border-bottom: 1px solid #e57f41; color: #fff; font-weight: lighter; font-family: sans-serif; font-size: 18px; padding: 0px 0px 15px 0px; margin-bottom: 30px;}
+.highlight img{text-align: center; clear: both; position: absolute; bottom: 0px; left: 20%;}
+.newsletter p{font-family: sans-serif; font-size: 12px; color: #fff; font-weight: lighter; margin-bottom: 20px; line-height: 18px;}
+.newsletter form{}
+.newsletter label{ font-size: 12px; color: #09645c; font-weight: lighter;}
+.newsletter input{width:100% !important ; float: left; margin: 0px; padding: 6px 0px;  -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; border: none; text-indent: 10px;}
+.newsletter button{margin: 20px 0px 0px 0px;padding: 10px 30px;}
+.bottom h4{border-bottom: 1px solid #e57f41; color: #fff; font-weight: lighter; font-family: sans-serif; font-size: 18px; padding: 0px 0px 15px 0px; margin-bottom: 20px;}
 .foot{background-color: #14736b; padding: 22px 0px; margin: 0px 0px 0px 0px;}
-.copyright{padding: 20px 0px; color: #fff; font-size: 12px; font-family: sans-serif; font-weight: lighter;}
+.copyright{padding: 20px 0px; color: #fff; font-size: 11px; font-family: sans-serif; font-weight: lighter;}
 ul#footer-nav{display: inline; margin: 0px; padding: 0px;}
 ul#footer-nav li{display: inline; margin: 0px 50px 0px 0px; font-family: sans-serif; font-size: 13px; font-weight: lighter;}
 ul#footer-nav li a{color: #fff !important;}
+ul#featured-articles{display:block; margin: 30px 0px 0px 0px; padding: 0px;}
+ul#featured-articles li{list-style-type: none; margin: 0px 0px 25px 0px; padding: 0px;}
+ul#featured-articles li img{float: left;  margin: 0px; padding: 0px 15px 0px 0px; display: block;}
+ul#featured-articles li .headline{ font-size: 14px; color: #fff; font-weight: lighter; margin: 0px; padding: 0px; display: block;}
+ul#feautred-articles li .headline a{color: #fff; display: block;}
+ul#featured-articles li .date{font-size: 11px; color: #0ddacb; margin-bottom: 8px;}
+ul#featured-articles li .excerpt{font-size: 13px; color: #fff; font-weight: lighter; display: block;}
+ul#featured-articles li .excerpt a{color: #fff; text-decoration: none;}
+button{margin: 0px; padding: 12px 45px; border: none;   -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; font-size: 13px !important;}
 
 /*makes the slider occupy 100% of parent element*/
 /*.sy-box, .sy-slide > a,.sy-slide > a > img{
