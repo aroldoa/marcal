@@ -9,6 +9,7 @@
  *
  */
 get_header(); ?>
+ <div class="spacer"></div>
   	<section class="white">
 	  	<div class="intro container">
 		  	<div class="col-sm-4">
@@ -55,5 +56,4 @@ get_header(); ?>
 		  	</div>
 	  	</div>
   	</section>
-  	<div class="spacer"></div>
 <?php get_footer(); ?>
