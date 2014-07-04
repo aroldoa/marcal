@@ -50,7 +50,14 @@
 		  			Over 20 years experience in temp staffing as well as direct hire professional services
 		  		</div>
 		  		<div class="col-md-4">
-		  			Call Us Today: 210-222-222 &nbsp; <a href="#" data-icon="&#xe0aa;"></a>
+		  			Call Us Today: 210-222-222
+
+		  			<div class="social-icons">
+			  			<a href="#" title="Follow me on Twitter"><span class="social_twitter_circle" aria-hidden="true"></span></a>
+			  			<a href="#" title="Follow me on Facebook"><span class="social_facebook_circle" aria-hidden="true"></span></a>
+			  			<a href="#" title="Follow me on YouTube"><span class="social_youtube_circle" aria-hidden="true"></span></a>
+			  			<a href="#" title="Follow me on Google+"><span class="social_googleplus_circle" aria-hidden="true"></span></a>
+			  		</div>
 		  		</div>
   			</div>
   			<div class="col-md-3">
