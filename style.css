@@ -4,6 +4,7 @@ body{background-color: #1e938b !important; color: #717171 !important;}
 header{position: relative; width: 100%; overflow: hidden;}
 .menu{position: relative; z-index: 10;}
 .logo{position: relative; z-index: 10;}
+a{color: #0f7ab1;}
 .slider{position: relative; top: -160px; left: 0; z-index: 0; width:100%; margin-bottom:-160px;}
 .nav-bar{min-height: 45px; background-color: rgba(20, 115, 107, 0.8); /* Color white with alpha 0.9*/ padding: 12px 0px 0px 0px; color: #fff; font-weight: lighter; position: relative; z-index: 10;}
 ul#main-nav{margin: 40px 0px 0px 0px; padding: 0px; text-align: right;}
@@ -94,9 +95,10 @@ ul#jobslist li .date{color: #17aa9f; font-size: 12px; margin: 5px 0px 0px 0px;}
 
 .sidebararea{background-color: #fff; margin: 20px 0px 0px 0px; padding: 40px 20px; text-align: left; border-top: 4px solid #f2a071; border-left: 1px solid #ececec; border-bottom: 1px solid #ececec;  border-right: 1px solid #ececec; float: right;}
 .widget_nav_menu ul{list-style-type: none; margin: 0px 0px 0px 10px; padding: 0px;}
-.widget_nav_menu ul li{margin: 0px 0px 10px 0px; position: 10px 0px;}
+.widget_nav_menu ul li{margin: 0px 0px 10px 0px; padding: 10px 0px; border-bottom: 1px solid #eeeeee;}
 .widget {margin: 0px 0px 40px 0px;}
 .widget h2{font-size: 21px; border-bottom: 1px solid #ededed; line-height: 30px; padding: 0px 0px 10px 0px;}
+.entry{margin: 40px 0px;}
 /*makes the slider occupy 100% of parent element*/
 /*.sy-box, .sy-slide > a,.sy-slide > a > img{
 	height:100%;

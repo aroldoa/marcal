@@ -102,7 +102,7 @@
 					<a href="#slide1"><img src="<?php bloginfo( 'template_directory' ); ?>/images/slideshow.jpg" alt="Welcome to Slippry!"></a>
 				</li>
 				<li>
-					<a href="#slide2"><img src="<?php bloginfo( 'template_directory' ); ?>/images/slideshow.jpg"  alt="This is an awesome jQuery slider plugin."></a>
+					<a href="#slide2"><img src="<?php bloginfo( 'template_directory' ); ?>/images/slideshow2.jpg"  alt="This is an awesome jQuery slider plugin."></a>
 				</li>
 				<li>
 					<a href="#slide3"><img src="<?php bloginfo( 'template_directory' ); ?>/images/slideshow.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>

@@ -3,18 +3,36 @@
 	  	<div class="container">
 		  	<div class="col-lg-5">
 			  	<h4>Company News</h4>
-			  		<ul id="featured-articles">
+	<ul id="featured-articles">
+			  	<?php
+					// the query
+
+$args = array(
+	'post_type' => 'post',
+	'posts_per_page'=> 2,
+	'order' => 'ASC'
+);
+
+$get_resources = new WP_Query( $args ); ?>
+
+<?php if ( $get_resources->have_posts() ) : ?>
+
+<?php while ( $get_resources->have_posts() ) : $get_resources->the_post(); ?>
+
+			  	
 				  		<li>
-					  		<img src="<?php bloginfo( 'template_directory' ); ?>/images/news1.jpg" alt="news"/>
-					  		<div class="date">6/12/2014</div>
-					  		<div class="excerpt"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae turpis aliquam, auctor ante et, rhoncus Lorem ipsum dolor sit amet </a></div>
+					  		<?php 
+								if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+  									the_post_thumbnail('thumbnail', array('class' => 'img-responsive')); 
+									} 
+							?>
+					  		<div class="date"><?php the_date();?></div>
+					  		<div class="excerpt"><a href="<?php the_permalink();?>"><?php the_title();?></a></div>
 
 				  		</li>
-				  		<li>
-					  		<img src="<?php bloginfo( 'template_directory' ); ?>/images/news2.jpg" alt="news"/>
-					  		<div class="date">6/12/2014</div>
-					  		<div class="excerpt"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae turpis aliquam, auctor ante et, rhoncus Lorem ipsum dolor sit amet </a></div>
-				  		</li>
+
+<?php endwhile; endif;?>
+
 			  		</ul>
 		  	</div>
 		  	<div class="col-lg-5 col-lg-offset-2 newsletter">
