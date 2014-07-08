@@ -33,20 +33,20 @@ get_header('sub'); ?>
 			 <?php if ( $get_resources->have_posts() ) : ?>
 
 			 <?php while ( $get_resources->have_posts() ) : $get_resources->the_post(); ?>
+			 <div class="alternate col-lg-12">
+		  		<div class="col-md-7 jobs-list">
+		
+			  		<h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2>
+			  		<?php the_excerpt();?>
 
-	  		<div class="col-md-7 jobs-list light">
-	
-		  		<h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2>
-		  		<?php the_excerpt();?>
-
-		  	</div>
-		  	<div class="col-md-3">
-			  		<?php echo get_post_meta($post->ID, 'Location', true); ?>
-		  	</div>
-		  	<div class="col-md-2">
-			  		<?php echo get_post_meta($post->ID, 'Job Type', true); ?>
-		  	</div>
-
+			  	</div>
+			  	<div class="col-md-3">
+				  		<?php echo get_post_meta($post->ID, 'Location', true); ?>
+			  	</div>
+			  	<div class="col-md-2">
+				  		<?php echo get_post_meta($post->ID, 'Job Type', true); ?>
+			  	</div>
+			 </div>
 		  	<?php endwhile; endif; ?>
 
 	  	</div>

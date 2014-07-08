@@ -77,7 +77,9 @@
 
 				 // slideshow
 				 auto: true
-			})
+			});
+			jQuery('.alternate:nth-child(even)').addClass('light');
+			jQuery('.alternate:nth-child(odd)').css({'background-color':'#fff'});
 		});
 	</script>
   </body>
