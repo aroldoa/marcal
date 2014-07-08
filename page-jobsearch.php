@@ -11,20 +11,31 @@
 get_header('sub'); ?>
 <?php get_template_part('part','titlearea');?>
   	<section class="white">
-	  	<div class="container main jobs-list light">
-	  		<div class="col-md-6">
-		  		<?php
-			  		// the query
-			  		$args = array(
-			  		'post_type' => 'jobs',
-			  		'posts_per_page'=> 12
-			  		);
-			  		$get_resources = new WP_Query( $args );
-			  		?>
+	  	<div class="container main ">
 
-			  	<?php if ( $get_resources->have_posts() ) : ?>
+	  	<div class="col-lg-12">
+	  		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-			  	<?php while ( $get_resources->have_posts() ) : $get_resources->the_post(); ?>
+				<?php the_content(); ?>
+
+			<?php endwhile; endif; ?>
+	  	</div>
+
+	  		 <?php
+			 // the query
+			 $args = array(
+			 'post_type' => 'jobs',
+			 'posts_per_page'=> 12
+			 );
+			 
+			 $get_resources = new WP_Query( $args ); ?>
+
+			 <?php if ( $get_resources->have_posts() ) : ?>
+
+			 <?php while ( $get_resources->have_posts() ) : $get_resources->the_post(); ?>
+
+	  		<div class="col-md-6 jobs-list">
+	
 		  		<h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2>
 		  		<?php the_excerpt();?>
 

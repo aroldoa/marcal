@@ -64,10 +64,10 @@ button{margin: 0px; padding: 12px 45px; border: none;   -moz-border-radius: 5px;
 .main .excerpt{font-size: 24px; color: #247c75; line-height: 36px;margin-bottom: 30px; font-weight: lighter;}
 .main h3{font-size: 18px; font-weight: lighter; color: #222; margin-bottom: 20px;}
 .left-col{border-right: 1px solid #eaeaea; padding: 0px 50px 0px 0px;}
-.left-col h2,.main h2{font-size: 32px; font-weight: lighter; color: #f7742c; margin-bottom: 32px;}
+.left-col h2,.main h2{font-size: 32px; font-weight: lighter; color: #f7742c; margin-bottom: 12px;}
 .left-col p,.main p{line-height: 24px; margin-bottom: 20px;}
 .right-col{padding: 0px 0px 0px 50px;}
-.titlearea{padding: 0px 0px 10px 0px; background-image: url('images/titlearea.png'); background-repeat: no-repeat; background-size: cover;}
+.titlearea{padding: 0px 0px 10px 0px; background-image: url('images/titlearea2.png'); background-repeat: no-repeat; background-size: cover;}
 .titlearea h1{font-size: 28px; color: #fff; font-weight: lighter;}
 .alignright{float: right; margin: 10px 0px 10px 15px;}
 .jobs-list h2{font-size: 21px; margin: 10px 0px 2px 0px; border: none;}
@@ -79,9 +79,13 @@ ul#jobslist li{display: block; list-style-type: none; font-size: 14px; margin: 0
 ul#jobslist li a{color: #444; font-weight: normal; margin: 0px 0px 10px 0px;}
 ul#jobslist li a:hover{color: #ee8548; font-weight: normal; margin: 0px 0px 10px 0px; text-decoration: none;}
 ul#jobslist li .date{color: #17aa9f; font-size: 12px; margin: 5px 0px 0px 0px;}
-.postedby{padding: 4px 0px 4px 0px; margin: -20px 0px 30px 0px; font-size: 12px; color: #a2a2a2; font-style: italic; border-bottom: 1px solid #e9e9e9;}
-.social-icons a{color: #fff; font-family: 'ElegantIcons';float: left;text-decoration: none;font-size: 1.5em;line-height: 1;}
-
+.postedby{padding: 4px 0px 4px 0px; margin: -10px 0px 30px 0px; font-size: 12px; color: #a2a2a2; font-style: italic; border-bottom: 1px solid #e9e9e9;}
+.social-icons{ float: right; border-left: 1px solid #01beb6; padding: 0px 0px 0px 30px;}
+.social-icons span{color: #fff; font-family: 'ElegantIcons'; float: left; text-decoration: none; font-size: 1.2em;line-height: 1; content: ""; margin: 0px 0px 0px 3px;}
+.social-icons span:before{display: none !important;}
+.call{float: right;}
+.breadcrumbs {color: #fff;}
+.breadcrumbs a{color: #fc6a14;}
 
 /*makes the slider occupy 100% of parent element*/
 /*.sy-box, .sy-slide > a,.sy-slide > a > img{

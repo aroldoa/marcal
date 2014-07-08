@@ -2,7 +2,10 @@
 	<div class="container">
 		<h1><?php the_title(); ?></h1>
 		<div class="breadcrumbs">
-			Home  >   About MarCal
+    	<?php if(function_exists('bcn_display'))
+    		{
+        	bcn_display();
+    		}?>
 		</div>
 	</div>
 </section>
