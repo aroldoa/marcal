@@ -13,7 +13,7 @@ get_header('sub'); ?>
   	<section class="white">
 	  	<div class="container main ">
 
-	  	<div class="col-lg-12">
+	  	<div class="col-lg-12 ">
 	  		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 				<?php the_content(); ?>
@@ -33,18 +33,22 @@ get_header('sub'); ?>
 			 <?php if ( $get_resources->have_posts() ) : ?>
 
 			 <?php while ( $get_resources->have_posts() ) : $get_resources->the_post(); ?>
-			 <div class="alternate col-lg-12">
-		  		<div class="col-md-7 jobs-list">
+			 <div class="alternate col-lg-12 jobs-list">
+		  		<div class="col-md-7">
 		
 			  		<h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2>
-			  		<?php the_excerpt();?>
+			  		<p><?php the_excerpt();?></p>
 
 			  	</div>
-			  	<div class="col-md-3">
+			  	<div class="col-md-2 col-xs-offset-1">
+			  		<div class="location">
 				  		<?php echo get_post_meta($post->ID, 'Location', true); ?>
+				  	</div>	
 			  	</div>
 			  	<div class="col-md-2">
+			  		<div class="type">
 				  		<?php echo get_post_meta($post->ID, 'Job Type', true); ?>
+				  	</div>	
 			  	</div>
 			 </div>
 		  	<?php endwhile; endif; ?>
