@@ -34,13 +34,13 @@ get_header('sub'); ?>
 
 			 <?php while ( $get_resources->have_posts() ) : $get_resources->the_post(); ?>
 
-	  		<div class="col-md-6 jobs-list">
+	  		<div class="col-md-7 jobs-list light">
 	
 		  		<h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2>
 		  		<?php the_excerpt();?>
 
 		  	</div>
-		  	<div class="col-md-4">
+		  	<div class="col-md-3">
 			  		<?php echo get_post_meta($post->ID, 'Location', true); ?>
 		  	</div>
 		  	<div class="col-md-2">

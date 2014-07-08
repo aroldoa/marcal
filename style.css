@@ -73,9 +73,10 @@ button{margin: 0px; padding: 12px 45px; border: none;   -moz-border-radius: 5px;
 .jobs-list h2{font-size: 21px; margin: 10px 0px 2px 0px; border: none;}
 .jobs-list{padding: 10px 20px;}
 .widget{margin-bottom: 30px;}
-.widget h4{font-size: 14px; font-weight: lighter; color: #222; border-bottom: 1px solid #eaeaea; line-height: 24px;}
-ul#jobslist{margin: 20px 0px 0px 0px; padding: 0px;}
-ul#jobslist li{display: block; list-style-type: none; font-size: 14px; margin: 0px 0px 15px 0px; padding: 0px 0px 5px 0px;}
+.widget h4{font-size: 18px; font-weight: lighter; color: #F7600D; border-bottom: 1px solid #eaeaea; line-height: 28px; margin: 10px 0px 0px 0px;}
+ul#jobslist{margin: 30px 0px 0px 0px; padding: 0px;}
+ul#jobslist li{display: block; list-style-type: none; font-size: 14px; margin: 0px 0px 20px 0px; padding: 0px 0px 15px 0px; border-bottom: 1px dashed #448a85;}
+ul#jobslist li:before{content: "\24"; font-family: 'ElegantIcons'; font-size: 13px; margin: 0px 4px 0px 0px;  color: #F7600D;}
 ul#jobslist li a{color: #444; font-weight: normal; margin: 0px 0px 10px 0px;}
 ul#jobslist li a:hover{color: #ee8548; font-weight: normal; margin: 0px 0px 10px 0px; text-decoration: none;}
 ul#jobslist li .date{color: #17aa9f; font-size: 12px; margin: 5px 0px 0px 0px;}
