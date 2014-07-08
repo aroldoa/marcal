@@ -24,8 +24,8 @@ get_header('sub'); ?>
 
 		<?php endwhile; endif; ?>
 
-		<div class="col-sm-4">
-			Sidebar goes here
+		<div class="col-sm-3 sidebararea col-xs-offset-1">
+			<?php get_sidebar(); ?>
 		</div>
 
 		</div>
