@@ -32,6 +32,7 @@
 	<link href="<?php bloginfo( 'template_directory' ); ?>/css/bootstrap.css" rel="stylesheet">
 	<link href="<?php bloginfo( 'template_directory' ); ?>/css/slippry.css" rel="stylesheet">
 	<link href="<?php bloginfo( 'template_directory' ); ?>/css/icons.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -105,7 +106,7 @@
 					<a href="#slide2"><img src="<?php bloginfo( 'template_directory' ); ?>/images/slideshow2.jpg"  alt="Looking for your dream job? <br/>We can help!"></a>
 				</li>
 				<li>
-					<a href="#slide3"><img src="<?php bloginfo( 'template_directory' ); ?>/images/slideshow3.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+					<a href="#slide3"><img src="<?php bloginfo( 'template_directory' ); ?>/images/slideshow3.jpg" alt="Working with Companies to help <br/>them find great people!"></a>
 				</li>
 			</ul>
     	</div>
