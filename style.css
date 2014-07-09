@@ -117,6 +117,12 @@ ul#jobslist li .date{color: #17aa9f; font-size: 12px; margin: 5px 0px 0px 0px;}
 .widget_categories ul{margin: 20px 0px 0px 0px; padding: 0px;}
 .widget_categories ul li{list-style-type: none; margin: 0px 0px 15px 0px; padding: 0px;}
 .thumb{width: 125px;}
+
+#gform_2 .gform_title{font-weight: lighter; font-size: 18px; color: #2e2e2e;}
+#gform_2 input{background: none; border: 1px solid silver; text-indent: 10px; padding: 10px 0px; margin-bottom: 18px;}
+#gform_2 label{font-weight: lighter;}
+#gform_submit_button_2{padding: 10px 30px !important; background: none !important; background-color: red !important; text-indent: 0px !important; font-size: 12px !important;}
+
 /*makes the slider occupy 100% of parent element*/
 /*.sy-box, .sy-slide > a,.sy-slide > a > img{
 	height:100%;
@@ -159,7 +165,7 @@ ul#jobslist li .date{color: #17aa9f; font-size: 12px; margin: 5px 0px 0px 0px;}
 	#main-nav {
 		display:none;
 	}
-	
+
 	.slicknav_menu {
 		display:block;
 	}
