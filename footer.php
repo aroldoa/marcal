@@ -52,7 +52,7 @@ $get_resources = new WP_Query( $args ); ?>
 				  	<button class="orange">Sign Up!</button>
 
 			  	</form> -->
-			  	<?php apply_filters('gform_fields_2', gravity_form('Newsletter')); ?>
+			  	<?php apply_filters('gform_fields_2', gravity_form('Newsletter',false,false)); ?>
 			  	
 			  	
 		  	</div>
