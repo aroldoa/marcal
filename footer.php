@@ -23,7 +23,7 @@ $get_resources = new WP_Query( $args ); ?>
 				  		<li>
 					  		<?php 
 								if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-  									echo get_the_post_thumbnail($post->ID, 'full', array('class' => 'img-responsive'));
+  									echo get_the_post_thumbnail($post->ID, 'full', array('class' => 'img-responsive thumb'));
 									} 
 							?>
 					  		<div class="date"><?php the_date();?></div>
