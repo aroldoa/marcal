@@ -118,6 +118,7 @@ ul#jobslist li .date{color: #17aa9f; font-size: 12px; margin: 5px 0px 0px 0px;}
 .widget_categories ul li{list-style-type: none; margin: 0px 0px 15px 0px; padding: 0px;}
 .thumb{width: 125px;}
 
+.gform_wrapper ul li.gfield{clear:none !important;}
 #gform_2 .gform_title{font-weight: lighter; font-size: 18px; color: #2e2e2e;}
 #gform_2 input{background: none; border: 1px solid silver; text-indent: 10px; padding: 10px 0px; margin-bottom: 18px;}
 #gform_2 label{font-weight: lighter;}
