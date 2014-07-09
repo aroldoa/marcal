@@ -42,25 +42,13 @@ $args = array(
 			  	<?php
 					foreach( $recent_posts as $recent ){
 						echo '<li>
-								<div class="category">Administration</div>
+								<div class="category">' . get_post_meta( $recent["ID"], 'Category', true ) . '</div>
 								<div class="job-title">
 									<a href="' . get_permalink($recent["ID"]) . '" title="Look '.esc_attr($recent["post_title"]).'" >' .   $recent["post_title"].'</a>
 								</div>
 							  </li> ';
 					}
 				?>
-				  	<!-- <li>
-					  	<div class="category">Administration</div>
-					  	<div class="job-title">Web / Interactive Programmer & Designer</div>
-				  	</li>
-				  	<li>
-					  	<div class="category">Administration</div>
-					  	<div class="job-title">Web / Interactive Programmer & Designer</div>
-				  	</li>
-				  	<li class="last">
-					  	<div class="category">Administration</div>
-					  	<div class="job-title">Web / Interactive Programmer & Designer</div>
-				  	</li> -->
 			  	</ul>
 			  	<button class="orange">View All Jobs</button>
 		  	</div>
