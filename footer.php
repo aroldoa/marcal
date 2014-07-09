@@ -39,7 +39,7 @@ $get_resources = new WP_Query( $args ); ?>
 			  	<h4>Join our Newsletter</h4>
 			  	<p>Ut imperdiet sed enim vel cursus. Integer vulputate tempus aliquet. Nam consequat libero vel lorem pulvinar accumsan. Nunc vulputate auctor augue, et condimentum mi sagittis id. Vestibulum ante ipsum</p>
 
-			  	<form>
+			  	<!-- <form>
 			  		<div class="col-lg-6 row">
 			  		<label>Your Name</label>
 				  		<input class="span10" type="text" value="" id=""/>
@@ -51,7 +51,10 @@ $get_resources = new WP_Query( $args ); ?>
 
 				  	<button class="orange">Sign Up!</button>
 
-			  	</form>
+			  	</form> -->
+			  	<?php apply_filters('gform_fields_2', gravity_form('Newsletter')); ?>
+			  	
+			  	
 		  	</div>
 	  	</div>
   	</section>

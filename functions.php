@@ -100,4 +100,11 @@
 
     }
 
+    add_filter( 'gform_submit_button_2', 'custom_marcal_newsletter_submit', 10, 2 );
+    function custom_marcal_newsletter_submit( $button, $form ){
+        return '<input type="submit" id="gform_submit_button_'.$form["id"].'" value="'. $form["button"]["text"] .'" class="orange" data-stuff="something" />';
+    }
+
+    
+
 ?>

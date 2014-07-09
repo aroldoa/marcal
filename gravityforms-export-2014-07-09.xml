@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forms version="1.8.9">
+	<form labelPlacement="top_label" useCurrentUserAsAuthor="1">
+		<title><![CDATA[Job Application]]></title>
+		<descriptionPlacement><![CDATA[below]]></descriptionPlacement>
+		<button type="text">
+			<text><![CDATA[Submit]]></text>
+		</button>
+		<fields>
+			<field id="8" isRequired="1" size="medium" type="name" nameFormat="normal">
+				<label><![CDATA[Name]]></label>
+				<inputs>
+					<input id="8.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="8.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+				</inputs>
+			</field>
+			<field id="3" isRequired="1" size="medium" type="email">
+				<label><![CDATA[Email]]></label>
+			</field>
+			<field id="4" isRequired="1" size="medium" type="phone" phoneFormat="standard">
+				<label><![CDATA[Phone]]></label>
+			</field>
+			<field id="5" size="medium" type="hidden">
+				<defaultValue><![CDATA[{embed_post:post_title}]]></defaultValue>
+				<label><![CDATA[Job Title]]></label>
+			</field>
+			<field id="6" size="medium" type="hidden">
+				<defaultValue><![CDATA[{embed_url}]]></defaultValue>
+				<label><![CDATA[Job Link]]></label>
+			</field>
+			<field id="9" isRequired="1" size="medium" type="fileupload">
+				<label><![CDATA[Resume/CV]]></label>
+				<allowedExtensions><![CDATA[pdf,doc,docx]]></allowedExtensions>
+			</field>
+		</fields>
+		<enableHoneypot><![CDATA[1]]></enableHoneypot>
+		<notifications>
+			<notification id="53bc5703b14bf">
+				<name><![CDATA[Job Application Notification]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<to><![CDATA[jobs@marcal.com]]></to>
+				<toType><![CDATA[email]]></toType>
+				<subject><![CDATA[New {form_title} for {Job Title:5}]]></subject>
+				<message><![CDATA[{all_fields}]]></message>
+				<from><![CDATA[{admin_email}]]></from>
+				<fromName><![CDATA[{Name (First):8.3}{Name (Last):8.6}]]></fromName>
+			</notification>
+		</notifications>
+		<confirmations>
+			<confirmation id="53bc5703b6303" isDefault="1" type="message">
+				<name><![CDATA[Default Confirmation]]></name>
+				<message><![CDATA[Thanks for applying! We will get in touch with you shortly.]]></message>
+			</confirmation>
+		</confirmations>
+	</form>
+	<form labelPlacement="top_label" useCurrentUserAsAuthor="1">
+		<title><![CDATA[Newsletter]]></title>
+		<descriptionPlacement><![CDATA[below]]></descriptionPlacement>
+		<button type="text">
+			<text><![CDATA[Sign Up!]]></text>
+		</button>
+		<fields>
+			<field id="1" size="medium" type="text">
+				<cssClass><![CDATA[col-lg-6 row]]></cssClass>
+				<label><![CDATA[Your Name]]></label>
+			</field>
+			<field id="2" size="medium" type="email">
+				<cssClass><![CDATA[col-lg-6]]></cssClass>
+				<label><![CDATA[Email]]></label>
+			</field>
+		</fields>
+		<enableHoneypot><![CDATA[1]]></enableHoneypot>
+		<confirmations>
+			<confirmation id="53bc797f40795" isDefault="1" type="message">
+				<name><![CDATA[Default Confirmation]]></name>
+				<message><![CDATA[Thanks for contacting us! We will get in touch with you shortly.]]></message>
+			</confirmation>
+		</confirmations>
+		<notifications>
+			<notification id="53bc797f2bfa7">
+				<to><![CDATA[{admin_email}]]></to>
+				<name><![CDATA[Admin Notification]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<toType><![CDATA[email]]></toType>
+				<subject><![CDATA[New submission from {form_title}]]></subject>
+				<message><![CDATA[{all_fields}]]></message>
+			</notification>
+		</notifications>
+	</form>
+</forms>

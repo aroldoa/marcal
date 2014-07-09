@@ -17,8 +17,10 @@
 					<?php the_tags( 'Tags: ', ', ', ''); ?>
 
 			<?php endwhile; endif; ?>
+			<div class="apply">
+	  			<?php gravity_form('Job Application'); ?>
 	  		</div>
-
+	  		</div>
 	  		<div class="col-md-3 right-col">
 				<?php get_sidebar('jobs'); ?>
 	  		</div>
