@@ -27,13 +27,13 @@ $args = array(
 		  	<div class="col-sm-4">
 			  	<h2>For Job Seekers</h2>
 			  	<img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/images/job-seekers.jpg" alt="Looking for a job" width="320px"/>
-			  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu risus a risus mollis</p>
+			  	<p>Interested in finding that perfect job? Take a look at the available positions we have currently open.</p>
 			  	<a href="#">Learn More</a>
 		  	</div>
 		  	<div class="col-sm-4">
 			  	<h2>For Employers</h2>
 			  	<img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/images/for-employers.jpg" alt="" width="320px"/>
-			  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu risus a risus mollis</p>
+			  	<p>Providing Top Tier Talent to companies looking for employees that fit their corporate culture.</p>
 			  	<a href="#">Learn More</a>
 		  	</div>
 		  	<div class="col-sm-4 jobbox">
@@ -58,7 +58,7 @@ $args = array(
 	  	<div class="container centered">
 	  		<div class="col-lg-10 col-lg-offset-1">
 		  	<h2>20 years of combined experience in temp staffing as well as direct hire professional services</h2>
-		  	<p>MarCal Recruiting has been established as a professional staffing consulting firm to service our existing candidates as well as the employers. Learn how we can help you find the perfect fit for your company today!</p>
+		  	<p> MarCal Recruiting has been established as a professional staffing consulting firm to service our existing candidates as well as the employers. Learn how we can help you find the perfect fit for your company today!</p>
 
 		  	<button class="teal">How We Help</button>
 

@@ -19,12 +19,12 @@ $get_resources = new WP_Query( $args ); ?>
 
 <?php while ( $get_resources->have_posts() ) : $get_resources->the_post(); ?>
 
-			  	
+
 				  		<li>
-					  		<?php 
+					  		<?php
 								if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
   									echo get_the_post_thumbnail($post->ID, 'full', array('class' => 'img-responsive thumb'));
-									} 
+									}
 							?>
 					  		<div class="date"><?php the_date();?></div>
 					  		<div class="excerpt"><a href="<?php the_permalink();?>"><?php the_title();?></a></div>
@@ -37,7 +37,7 @@ $get_resources = new WP_Query( $args ); ?>
 		  	</div>
 		  	<div class="col-lg-5 col-lg-offset-2 newsletter">
 			  	<h4>Join our Newsletter</h4>
-			  	<p>Ut imperdiet sed enim vel cursus. Integer vulputate tempus aliquet. Nam consequat libero vel lorem pulvinar accumsan. Nunc vulputate auctor augue, et condimentum mi sagittis id. Vestibulum ante ipsum</p>
+			  	<p>Stay up to date with the latest Job News, Available Positions, and Great Tips that will help you build your portfolio and increase your opportunities for landing that dream job!</p>
 
 			  	<!-- <form>
 			  		<div class="col-lg-6 row">
@@ -53,8 +53,6 @@ $get_resources = new WP_Query( $args ); ?>
 
 			  	</form> -->
 			  	<?php apply_filters('gform_fields_2', gravity_form('Newsletter',false,false)); ?>
-			  	
-			  	
 		  	</div>
 	  	</div>
   	</section>
