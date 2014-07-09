@@ -52,14 +52,14 @@
 		  		<div class="col-md-2">
 		  			<div class="call">Call Today: 210-222-222</div>
 		  		</div>
-		  		<div class="col-md-2">	
+		  		<div class="col-md-2">
 		  			<div class="social-icons">
 			  			<a href="#" title="Follow me on Twitter"><span class="social_twitter_circle" aria-hidden="true"></span></a>
 			  			<a href="#" title="Follow me on Facebook"><span class="social_facebook_circle" aria-hidden="true"></span></a>
 			  			<a href="#" title="Follow me on YouTube"><span class="social_youtube_circle" aria-hidden="true"></span></a>
 			  			<a href="#" title="Follow me on Google+"><span class="social_googleplus_circle" aria-hidden="true"></span></a>
 			  		</div>
-			  	</div>	
+			  	</div>
   			</div>
   			<div class="col-md-3">
   				<div class="logo">
@@ -99,10 +99,10 @@
     	<div class="slider">
 	    	<ul id="slippry-demo">
 				<li>
-					<a href="#slide1"><img src="<?php bloginfo( 'template_directory' ); ?>/images/slideshow.jpg" alt="Welcome to Slippry!"></a>
+					<a href="#slide1"><img src="<?php bloginfo( 'template_directory' ); ?>/images/slideshow.jpg" alt="Welcome to MarCal Recruiting,<br/> Your Professional Recuriting and Staffing Agency"></a>
 				</li>
 				<li>
-					<a href="#slide2"><img src="<?php bloginfo( 'template_directory' ); ?>/images/slideshow2.jpg"  alt="This is an awesome jQuery slider plugin."></a>
+					<a href="#slide2"><img src="<?php bloginfo( 'template_directory' ); ?>/images/slideshow2.jpg"  alt="Looking for your dream job? <br/>We can help!"></a>
 				</li>
 				<li>
 					<a href="#slide3"><img src="<?php bloginfo( 'template_directory' ); ?>/images/slideshow3.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>

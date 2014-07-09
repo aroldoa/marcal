@@ -5,7 +5,7 @@
 	<h4>Additional Jobs</h4>
 	<ul id="jobslist">
 	<?php
-		$args = array('post_type' => 'jobs','posts_per_page' => 5);
+		$args = array('post_type' => 'jobs','posts_per_page' => 4);
 		$loop = new WP_Query($args);
 		while ($loop->have_posts() ) : $loop ->the_post(); ?>
 		<li>
@@ -15,5 +15,7 @@
 		<?php endwhile; wp_reset_query(); ?>
 	</ul>
 </div>
+
+<a href="http://localhost/MarCal/job-search/">View All Jobs</a>
 
 <?php endif; ?>

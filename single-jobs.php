@@ -22,7 +22,7 @@
 	  			<?php gravity_form('Apply for this Job Today!'); ?>
 	  		</div>
 	  		</div>
-	  		<div class="col-md-3 right-col">
+	  		<div class="col-md-3  right-col">
 				<?php get_sidebar('jobs'); ?>
 	  		</div>
 	  	</div>
