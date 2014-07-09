@@ -17,8 +17,9 @@
 					<?php the_tags( 'Tags: ', ', ', ''); ?>
 
 			<?php endwhile; endif; ?>
+			<hr/>
 			<div class="apply">
-	  			<?php gravity_form('Job Application'); ?>
+	  			<?php gravity_form('Apply for this Job Today!'); ?>
 	  		</div>
 	  		</div>
 	  		<div class="col-md-3 right-col">

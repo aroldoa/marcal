@@ -9,7 +9,17 @@ a{color: #0f7ab1;}
 .nav-bar{min-height: 45px; background-color: rgba(20, 115, 107, 0.8); /* Color white with alpha 0.9*/ padding: 12px 0px 0px 0px; color: #fff; font-weight: lighter; position: relative; z-index: 10;}
 ul#main-nav{margin: 40px 0px 0px 0px; padding: 0px; text-align: right;}
 ul#main-nav li{margin: 0px 0px 0px 35px; padding: 0px; display: inline; font-weight: lighter;}
-ul#main-nav li a{margin: 0px; padding: 0px; color: #fff;}
+ul#main-nav li a{margin: 0px; padding: 9px; color: #fff; 
+  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: 5px; 
+
+  /* Firefox 1-3.6 */
+  -moz-border-radius: 5px; 
+  
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius: 5px; 
+}
+ul#main-nav li a:hover{border: 1px solid white; margin: 0px; padding: 9px; color: #fff; text-decoration: none;}
 .spacer{ height:5px; background: #fe8b47; /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlOGI0NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUyJSIgc3RvcC1jb2xvcj0iIzc5YTU4MSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwZWI2YWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -85,6 +95,9 @@ ul#jobslist li a:hover{color: #ee8548; font-weight: normal; margin: 0px 0px 10px
 ul#jobslist li .date{color: #17aa9f; font-size: 12px; margin: 5px 0px 0px 0px;}
 .postedby{padding: 4px 0px 4px 0px; margin: -10px 0px 30px 0px; font-size: 12px; color: #a2a2a2; font-style: italic; border-bottom: 1px solid #e9e9e9;}
 .social-icons{ float: right; border-left: 1px solid #01beb6; padding: 0px 0px 0px 30px;}
+.social-icons-footer{ float: right; padding: 0px 0px 0px 30px;}
+.social-icons-footer span{color: #fff; font-family: 'ElegantIcons'; float: left; text-decoration: none; font-size: 1.2em;line-height: 1; content: ""; margin: 0px 0px 0px 3px;}
+.social-icons-footer span:before{display: none !important;}
 .social-icons span{color: #fff; font-family: 'ElegantIcons'; float: left; text-decoration: none; font-size: 1.2em;line-height: 1; content: ""; margin: 0px 0px 0px 3px;}
 .social-icons span:before{display: none !important;}
 .call{float: right;}
@@ -92,13 +105,16 @@ ul#jobslist li .date{color: #17aa9f; font-size: 12px; margin: 5px 0px 0px 0px;}
 .breadcrumbs a{color: #fc6a14;}
 .alternate{margin: 15px 0px;}
 .location,.type{position: absolute; top: 40px;}
-
 .sidebararea{background-color: #fff; margin: 20px 0px 0px 0px; padding: 40px 20px; text-align: left; border-top: 4px solid #f2a071; border-left: 1px solid #ececec; border-bottom: 1px solid #ececec;  border-right: 1px solid #ececec; float: right;}
 .widget_nav_menu ul{list-style-type: none; margin: 0px 0px 0px 10px; padding: 0px;}
 .widget_nav_menu ul li{margin: 0px 0px 10px 0px; padding: 10px 0px; border-bottom: 1px solid #eeeeee;}
 .widget {margin: 0px 0px 40px 0px;}
 .widget h2{font-size: 21px; border-bottom: 1px solid #ededed; line-height: 30px; padding: 0px 0px 10px 0px;}
 .entry{margin: 40px 0px;}
+.widget_recent_entries ul{margin: 20px 0px 0px 0px; padding: 0px;}
+.widget_recent_entries ul li{list-style-type: none; margin: 0px 0px 20px 0px; padding: 0px;}
+.widget_categories ul{margin: 20px 0px 0px 0px; padding: 0px;}
+.widget_categories ul li{list-style-type: none; margin: 0px 0px 15px 0px; padding: 0px;}
 /*makes the slider occupy 100% of parent element*/
 /*.sy-box, .sy-slide > a,.sy-slide > a > img{
 	height:100%;

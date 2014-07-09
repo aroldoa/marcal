@@ -72,7 +72,12 @@ $get_resources = new WP_Query( $args ); ?>
 			  	</nav>
 		  	</div>
 		  	<div class="col-lg-2">
-			  	asf
+			  	<div class="social-icons-footer">
+			  			<a href="#" title="Follow me on Twitter"><span class="social_twitter_circle" aria-hidden="true"></span></a>
+			  			<a href="#" title="Follow me on Facebook"><span class="social_facebook_circle" aria-hidden="true"></span></a>
+			  			<a href="#" title="Follow me on YouTube"><span class="social_youtube_circle" aria-hidden="true"></span></a>
+			  			<a href="#" title="Follow me on Google+"><span class="social_googleplus_circle" aria-hidden="true"></span></a>
+			  		</div>
 		  	</div>
 	  	</div>
 	  	<div class="copyright container">
