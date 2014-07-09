@@ -106,6 +106,7 @@ $get_resources = new WP_Query( $args ); ?>
 				 // slideshow
 				 auto: true
 			});
+			jQuery('#main-nav').slicknav();
 			jQuery('.alternate:nth-child(even)').addClass('light');
 			jQuery('.alternate:nth-child(odd)').css({'background-color':'#fff'});
 		});

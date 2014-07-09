@@ -121,29 +121,45 @@ ul#jobslist li .date{color: #17aa9f; font-size: 12px; margin: 5px 0px 0px 0px;}
 	height:100%;
 }*/
 @media(min-width:337px){
-	.slider{top: -312px; margin-bottom:-312px;}
-}
-@media(min-width:342px){
-	.slider{top: -292px; margin-bottom:-292px;}
-}
-@media(min-width:370px){
-	.slider{top: -273px; margin-bottom:-273px;}
-}
-@media(min-width:422px){
-	.slider{top: -253px; margin-bottom:-253px;}
-}
-@media(min-width:609px){
 	.slider{top: -233px; margin-bottom:-233px;}
 }
+@media(min-width:342px){
+	.slider{top: -213px; margin-bottom:-213px;}
+}
+@media(min-width:370px){
+	.slider{top: -194px; margin-bottom:-194px;}
+}
+@media(min-width:422px){
+	.slider{top: -174px; margin-bottom:-174px;}
+}
+@media(min-width:609px){
+	.slider{top: -154px; margin-bottom:-154px;}
+}
 @media(min-width:620px){
-	.slider{top: -225px; margin-bottom:-225px;}
+	.slider{top: -146px; margin-bottom:-146px;}
 }
 @media(min-width:768px){
-	.slider{top: -205px; margin-bottom:-205px;}
+	.slider{top: -225px; margin-bottom:-225px;}
 }
 @media(min-width:992px){
 	.slider{top: -155px;  margin-bottom:-155px;}
 }
 @media(min-width:1200px){
 	.slider{top: -145px; margin-bottom:-145px;}
+}
+
+/*slicknav*/
+.slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 768px) {
+	/* #menu is the original menu */
+	#main-nav {
+		display:none;
+	}
+	
+	.slicknav_menu {
+		display:block;
+	}
 }
